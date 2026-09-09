@@ -38,7 +38,10 @@ FocusFlow is a student productivity tool for managing academic and personal task
 
 ## Demo
 
-Screenshots and demo video will be added here.
+Screenshots are available in the screenshots folder.
+
+Demo Video: [FocusFlow Demo] 
+https://1drv.ms/v/c/f1738a3e68546032/IQB65t_Tga8tSaT4e2vrvxXeAS1ElL_o80PF0Imw9-1BERU?e=6BEyx8
 
 ## Author
 
