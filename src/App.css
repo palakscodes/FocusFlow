@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+  min-height: 100vh;
+}
+
+.app { width: 100%; max-width: 1100px; text-align: center; }
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #38bdf8, #a78bfa, #f472b6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 30px;
+  line-height: 1.2;
+  padding-bottom: 5px;
+}
+
+.input-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin-bottom: 20px; }
+
+input, select {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: #1e1e3f;
+  color: white;
+  font-family: inherit;
+}
+
+button {
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  background: linear-gradient(135deg, #38bdf8, #6366f1);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 4px;
+  transition: transform 0.15s ease;
+}
+button:hover { transform: translateY(-2px); }
+
+ul { list-style: none; padding: 0; margin-top: 24px; }
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255,255,255,0.06);
+  padding: 14px 18px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(255,255,255,0.1);
+  text-align: left;
+}
+li button { background: linear-gradient(135deg, #f87171, #ef4444); padding: 6px 12px; font-size: 13px; }
+
+.stats { margin-top: 20px; opacity: 0.9; }
+
+.progress-outer { background: #222; border-radius: 8px; height: 20px; width: 100%; margin-top: 10px; overflow: hidden; }
+.progress-inner { background: linear-gradient(90deg, #38bdf8, #4ade80); height: 100%; transition: width 0.3s; }
+
+.card { margin-top: 20px; padding: 16px; background: rgba(255,255,255,0.06); border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); }
+
+.timer-card h2 { font-size: 36px; margin: 0 0 10px; }
+.timer-inputs { display: flex; gap: 10px; justify-content: center; margin-bottom: 10px; }
+.timer-inputs input { width: 50px; text-align: center; }
+.label { font-size: 12px; opacity: 0.7; margin-bottom: 4px; }
+
+.celebration-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(135deg, #4caf50, #2e7d32);
+  padding: 30px 50px;
+  border-radius: 16px;
+  font-size: 24px;
+  font-weight: 700;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+  z-index: 1000;
+  animation: popupFade 5s ease forwards;
+}
+
+@keyframes popupFade {
+  0% { opacity: 0; transform: translate(-50%, -60%) scale(0.8); }
+  10% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+  90% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+  100% { opacity: 0; transform: translate(-50%, -40%) scale(0.9); }
+}
