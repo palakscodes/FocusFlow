@@ -38,9 +38,24 @@ FocusFlow is a student productivity tool for managing academic and personal task
 
 ## Demo
 
-Screenshots are available in the screenshots folder.
+### Screenshots
+Screenshots are available in the src/screenshots folder.
 
-Demo Video: [FocusFlow Demo] 
+#### Dashboard
+![Dashboard](src/screenshots/dashboard.png?raw=true)
+
+#### Timer
+![Timer](src/screenshots/timer.png?raw=true)
+
+#### Completed Task
+![Completed](src/screenshots/completed.png?raw=true)
+
+#### All Tasks Completed
+![All Tasks Completed](src/screenshots/all-task-completed.png?raw=true)
+
+
+### Demo Video: 
+[FocusFlow Demo] 
 https://1drv.ms/v/c/f1738a3e68546032/IQB65t_Tga8tSaT4e2vrvxXeAS1ElL_o80PF0Imw9-1BERU?e=6BEyx8
 
 ## Author
